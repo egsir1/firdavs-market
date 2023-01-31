@@ -1,0 +1,78 @@
+.toolbar {
+  background-color: rgb(249, 253, 254);
+  height: 120vh;
+  width: 100%;
+
+  padding: 1rem;
+  overflow-y: hidden;
+}
+.inputForm {
+  margin-top: 4rem;
+}
+.mainCheckout h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  color: rgb(42, 222, 5);
+}
+.mainCheckout h2 {
+  text-align: center;
+}
+.control {
+  display: flex;
+  flex-direction: column;
+}
+.control label {
+  margin-bottom: 0.5rem;
+  font-size: 22px;
+  font-weight: bold;
+}
+.control input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 0.5rem;
+  font-size: 24px;
+}
+.controlImg {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  display: flex;
+
+  padding-right: 1rem;
+}
+.act {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.act button {
+  background-color: #3bd70f;
+  border: 1px solid #3bd70f;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.act .reset {
+  background: #ccc;
+  border: 1px solid #ccc;
+  color: #000;
+}
+.imgload {
+  display: flex;
+  justify-content: space-between;
+}
+.imgload button {
+  background-color: #3bd70f;
+  margin-left: 1rem;
+}
+.btnDis:disabled {
+  background: #ccc;
+  border: 1px solid #ccc;
+  color: #000;
+}

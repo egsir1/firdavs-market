@@ -1,0 +1,17 @@
+.mainCart {
+  background-color: #02980f;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  color: white;
+}
+.arrowLeft {
+  padding: 2rem 1rem;
+  font-weight: bold;
+  font-size: 32px;
+}
+.cartTitle h2 {
+  font-size: 28px;
+}
